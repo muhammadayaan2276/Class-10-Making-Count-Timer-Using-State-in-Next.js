@@ -22,7 +22,7 @@ function State() {
           {/* Decrement Button */}
           <button
             onClick={() => setCount(count - 1)}
-            className="bg-purple-500 text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-red-600 transition duration-300 ease-in-out transform hover:scale-110"
+            className="bg-red-500 text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-red-600 transition duration-300 ease-in-out transform hover:scale-110"
           >
             Decrement
           </button>
